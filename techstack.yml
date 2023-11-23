@@ -1,0 +1,424 @@
+repo_name: zaknbur/ggplot2-book
+report_id: 7dc5cac70a57fcd590190df8890ccb28
+repo_type: Public
+timestamp: '2023-11-23T15:35:05+00:00'
+requested_by: djnavarro
+provider: github
+branch: master
+detected_tools_count: 38
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source: Repo Metadata
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: DESCRIPTION
+  last_updated_by: Carson Sievert
+  last_updated_on: 2015-05-13 19:20:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: DESCRIPTION
+  last_updated_by: Carson Sievert
+  last_updated_on: 2015-05-13 19:20:49.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: hadley
+  last_updated_on: 2015-08-06 18:13:35.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: ga_script.html
+  last_updated_by: Hadley Wickham
+  last_updated_on: 2019-06-21 12:30:10.000000000 Z
+- name: Hmisc
+  description: Harrell Miscellaneous
+  package_url: https://cran.r-project.org/Hmisc
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2015-08-07 13:24:59.000000000 Z
+- name: Lahman
+  description: Sean 'Lahman' Baseball Database
+  package_url: https://cran.r-project.org/Lahman
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: USAboundaries
+  description: |-
+    Historical and Contemporary Boundaries of the United States of
+    America
+  package_url: https://cran.r-project.org/USAboundaries
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-06-15 15:58:30.000000000 Z
+- name: babynames
+  description: US Baby Names 1880-2017
+  package_url: https://cran.r-project.org/babynames
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: bookdown
+  description: Authoring Books and Technical Documents with R Markdown
+  package_url: https://cran.r-project.org/bookdown
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Xiangyun Huang
+  last_updated_on: 2019-06-18 13:39:44.000000000 Z
+- name: broom
+  description: Convert Statistical Objects into Tidy Tibbles
+  package_url: https://cran.r-project.org/broom
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: conflicted
+  description: An Alternative Conflict Resolution Strategy
+  package_url: https://cran.r-project.org/conflicted
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-06-15 15:58:30.000000000 Z
+- name: devtools
+  description: Tools to Make Developing R Packages Easier
+  package_url: https://cran.r-project.org/devtools
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: directlabels
+  description: Direct Labels for Multicolor Plots
+  package_url: https://cran.r-project.org/directlabels
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: dplyr
+  description: A Grammar of Data Manipulation
+  package_url: https://cran.r-project.org/dplyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: effects
+  description: Effect Displays for Linear
+  package_url: https://cran.r-project.org/effects
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2015-08-07 13:24:59.000000000 Z
+- name: ggforce
+  description: Accelerating 'ggplot2'
+  package_url: https://cran.r-project.org/ggforce
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-07-03 12:10:24.000000000 Z
+- name: gghighlight
+  description: Highlight Lines and Points in 'ggplot2'
+  package_url: https://cran.r-project.org/gghighlight
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-07-03 12:10:24.000000000 Z
+- name: ggmap
+  description: Spatial Visualization with ggplot2
+  package_url: https://cran.r-project.org/ggmap
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: ggrepel
+  description: |-
+    Automatically Position Non-Overlapping Text Labels with
+    'ggplot2'
+  package_url: https://cran.r-project.org/ggrepel
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-07-03 12:10:24.000000000 Z
+- name: ggthemes
+  description: Extra Themes, Scales and Geoms for 'ggplot2'
+  package_url: https://cran.r-project.org/ggthemes
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: hexbin
+  description: Hexagonal Binning Routines
+  package_url: https://cran.r-project.org/hexbin
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2015-08-07 13:24:59.000000000 Z
+- name: lubridate
+  description: Make Dealing with Dates a Little Easier
+  package_url: https://cran.r-project.org/lubridate
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: magrittr
+  description: A Forward-Pipe Operator for R
+  package_url: https://cran.r-project.org/magrittr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: mapproj
+  description: Map Projections
+  package_url: https://cran.r-project.org/mapproj
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Danielle Navarro
+  last_updated_on: 2019-06-15 15:58:30.000000000 Z
+- name: maps
+  description: Draw Geographical Maps
+  package_url: https://cran.r-project.org/maps
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: nlme
+  description: Linear and Nonlinear Mixed Effects Models
+  package_url: https://cran.r-project.org/nlme
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: plyr
+  description: Tools for Splitting, Applying and Combining Data
+  package_url: https://cran.r-project.org/plyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: readr
+  description: Read Rectangular Text Data
+  package_url: https://cran.r-project.org/readr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Carson Sievert
+  last_updated_on: 2015-05-13 19:20:49.000000000 Z
+- name: rvest
+  description: Easily Harvest
+  package_url: https://cran.r-project.org/rvest
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: sf
+  description: Simple Features for R
+  package_url: https://cran.r-project.org/sf
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Carson Sievert
+  last_updated_on: 2015-05-13 19:20:49.000000000 Z
+- name: sp
+  description: Classes and Methods for Spatial Data
+  package_url: https://cran.r-project.org/sp
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Carson Sievert
+  last_updated_on: 2015-05-13 19:20:49.000000000 Z
+- name: tidyr
+  description: Tidy Messy Data
+  package_url: https://cran.r-project.org/tidyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: wesanderson
+  description: A Wes Anderson Palette Generator
+  package_url: https://cran.r-project.org/wesanderson
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
+- name: xtable
+  description: Export Tables to LaTeX or HTML
+  package_url: https://cran.r-project.org/xtable
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: hadley
+  last_updated_on: 2016-02-11 20:39:22.000000000 Z
